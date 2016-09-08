@@ -1,4 +1,4 @@
-# :whale: raspidocker Dockersetup
+# ![logo](.docs/ico_raspidocker.png) raspidocker Dockersetup
 
 
 ## Was ist raspidocker?
