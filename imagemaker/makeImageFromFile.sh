@@ -29,7 +29,7 @@ diskutil list
 diskutil unmount ${device}s0
 diskutil unmount ${device}s1
 diskutil unmount ${device}s2
-#diskutil unmount ${device}
+diskutil unmount ${device}
 echo "Start dd if=${imagename} of=${device} bs=1m? [RETURN]"
 read
 dd if=${imagename} of=${device} bs=1m
