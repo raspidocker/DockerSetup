@@ -21,7 +21,7 @@ fi
 
 echo "imagename=$imagename";
 echo "device=$device";
-echo "[ next ]";
+echo "[RETURN]";
 read
 clear
 
@@ -30,7 +30,7 @@ diskutil unmount ${device}s0
 diskutil unmount ${device}s1
 diskutil unmount ${device}s2
 #diskutil unmount ${device}
-echo " dd if=${imagename} of=${device} bs=1m?"
+echo "Start dd if=${imagename} of=${device} bs=1m? [RETURN]"
 read
 dd if=${imagename} of=${device} bs=1m
 diskutil unmount ${device}
