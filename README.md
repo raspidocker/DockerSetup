@@ -1,4 +1,4 @@
-# ![logo](.docs/ico_raspidocker.png) raspidocker Dockersetup
+# ![raspidocker](https://avatars1.githubusercontent.com/u/22078301?v=3&s=44) raspidocker Dockersetup
 
 
 ## Was ist raspidocker?
