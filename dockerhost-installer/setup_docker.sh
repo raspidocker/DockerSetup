@@ -24,7 +24,7 @@ echo "* Docker Version"
 docker version
 
 echo "* Starting a Linuxdockercontainer for 'Hello World!'"
-docker run -ti hello-world
+docker run -ti resin/rpi-raspbian:jessie
 
 ##
 exit 0
